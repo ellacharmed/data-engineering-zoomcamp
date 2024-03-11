@@ -16,3 +16,4 @@ RIDE_SCHEMA = T.StructType(
      T.StructField("payment_type", T.IntegerType()),
      T.StructField("total_amount", T.FloatType()),
      ])
+

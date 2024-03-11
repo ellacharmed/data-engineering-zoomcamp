@@ -102,3 +102,4 @@ services:
       - redpanda-1
     volumes:
       - shared-workspace:/opt/workspace
+

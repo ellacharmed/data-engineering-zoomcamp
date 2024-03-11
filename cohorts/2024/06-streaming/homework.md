@@ -39,8 +39,12 @@ docker network create kafka-spark-network
 docker volume create --name=hadoop-distributed-file-system
 ```
 
-TODO list the files to edit.
-3. Go through the files [file-1] [file-2], for the spark versions. Edit to match the version you have installed from module-05
+s
+1. Go through the files 
+   - spark-submit.sh
+   - streaming-notebook.ipynb, 
+   - 
+   for the spark versions. Edit to match the version you have installed from module-05
 
 > [!IMPORTANT]
 > change `spark-sql-kafka-0-10_2.12:[your-spark-version]`
@@ -169,5 +173,3 @@ python producer.py --type fhv
 ```
 ./spark-submit.sh streaming.py
 ```
-
-

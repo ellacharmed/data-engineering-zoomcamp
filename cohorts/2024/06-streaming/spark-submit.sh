@@ -1,5 +1,6 @@
 # Submit Python code to SparkMaster
 
+
 if [ $# -lt 1 ]
 then
 	echo "Usage: $0 <pyspark-job.py> [ executor-memory ]"

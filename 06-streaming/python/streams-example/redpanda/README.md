@@ -22,6 +22,15 @@ docker network create kafka-spark-network
 docker volume create --name=hadoop-distributed-file-system
 ```
 
+### Stand up the container
+
+
+```bash
+# use the docker-compose.yml in this path
+cd 06-streaming/python/streams-example/redpanda/
+docker compose up -d
+```
+
 ### Running Producer and Consumer
 ```bash
 # Run producer
@@ -44,3 +53,4 @@ spark-submit script ensures installation of necessary jars before running the st
 ### Additional Resources
 - [Structured Streaming Programming Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#structured-streaming-programming-guide)
 - [Structured Streaming + Kafka Integration](https://spark.apache.org/docs/latest/structured-streaming-kafka-integration.html#structured-streaming-kafka-integration-guide-kafka-broker-versio)
+

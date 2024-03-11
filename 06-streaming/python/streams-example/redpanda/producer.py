@@ -60,3 +60,4 @@ if __name__ == "__main__":
     ride_records = producer.read_records(resource_path=INPUT_DATA_PATH)
     print(ride_records)
     producer.publish(topic=PRODUCE_TOPIC_RIDES_CSV, records=ride_records)
+

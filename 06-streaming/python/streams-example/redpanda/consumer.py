@@ -45,3 +45,4 @@ if __name__ == '__main__':
     }
     csv_consumer = RideCSVConsumer(props=config)
     csv_consumer.consume_from_kafka(topics=[topic])
+

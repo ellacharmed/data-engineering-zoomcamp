@@ -30,7 +30,6 @@ class JsonProducer(KafkaProducer):
             except KafkaTimeoutError as e:
                 print(e.__str__())
 
-
 if __name__ == '__main__':
     # Config Should match with the KafkaProducer expectation
     # kafka expects binary format for the key-value pair

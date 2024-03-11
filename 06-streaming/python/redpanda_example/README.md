@@ -105,4 +105,3 @@ Redpanda Univerity (needs a Redpanda account and it is free to enrol and do the 
 - [SF102: Kafka building blocks](https://university.redpanda.com/courses/kafka-building-blocks)
 
 If you feel that you already have a good foundational basis on Streaming and Kafka, feel free to skip these supplementary courses.
-

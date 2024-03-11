@@ -82,3 +82,5 @@ if __name__ == "__main__":
     ride_records = producer.read_records(resource_path=data_path)
     print(ride_records)
     producer.publish(records=ride_records, topic=kafka_topic)
+
+

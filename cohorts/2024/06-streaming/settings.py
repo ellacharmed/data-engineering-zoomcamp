@@ -9,7 +9,6 @@ FHV_TAXI_TOPIC = 'fhv_taxi_rides'
 GREEN_TAXI_TOPIC = 'green_taxi_rides'
 TOPIC_WINDOWED_VENDOR_ID_COUNT = 'vendor_counts_windowed'
 
-
 RIDE_SCHEMA = T.StructType(
     [
         T.StructField("pickup_datetime", T.TimestampType(), True),
